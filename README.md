@@ -13,7 +13,7 @@ Estimated price: 6948.720246903524
 ```
 ## Trainer
 The second program is used to train your model. It will read the dataset and make a linear regression on this data.
-Once the linear regression has completed, it saves the variables $theta0$ and $theta1$ for use in the first program.
+Once the linear regression has completed, it saves the variables **theta0** and **theta1** for use in the first program.
 I have been using the following formulas:
 ### $tmpθ_{0} = learningRate ∗ \displaystyle \frac{1}{m} \sum_{i=0}^{m - 1} (estimatePrice(mileage[i]) − price[i])$
 ### $tmpθ_{1} = learningRate ∗ \displaystyle \frac{1}{m} \sum_{i=0}^{m - 1} (estimatePrice(mileage[i]) − price[i]) ∗ milleage[i]$
